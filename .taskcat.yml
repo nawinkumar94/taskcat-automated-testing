@@ -1,0 +1,12 @@
+project:
+  name: taskcat-example
+  regions:
+    - us-east-1
+tests:
+  sqs-test:
+       parameters:
+           KeyName: 'ansible-course-keypair'
+           NameOfService: 'taskcat-instance'
+       template: ./sqs.yml
+                          
+                          
