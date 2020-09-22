@@ -3,7 +3,7 @@ project:
   regions:
     - us-east-1
 tests:
-  sqs-test:
+  taskcat-test:
        parameters:
            KeyName: 'ansible-course-keypair'
            NameOfService: 'taskcat-instance'
