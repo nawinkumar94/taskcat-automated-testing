@@ -63,9 +63,6 @@ Resources:
         PolicyDocument:
           Statement:
           - Action:
-            - logs:*
-            - lambda:*
-            - cloudwatch:*
             - codebuild:*
             - s3:*
             Resource: "*"
@@ -76,9 +73,6 @@ Resources:
             - arn:aws:s3:::codepipeline*
             Effect: Allow
           - Action:
-            - logs:*
-            - lambda:*
-            - cloudwatch:*
             - codebuild:*
             - s3:*
             - ec2:*
